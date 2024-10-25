@@ -25,6 +25,7 @@ cd Python-Package-Manager
 
 ## Run
 
+Run the code:
 ```bash
 python manage_packages.py
 ```
