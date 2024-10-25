@@ -20,7 +20,7 @@ To use this package manager, clone this repository or copy the script to your lo
 
 ```bash
 git clone https://github.com/mrdevil786/Python-Package-Manager.git
-cd <repository-directory>
+cd Python-Package-Manager
 ```
 
 ## Run
