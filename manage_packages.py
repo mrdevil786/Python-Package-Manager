@@ -42,9 +42,10 @@ def main():
         print("\nOptions:")
         print("1. Uninstall a package")
         print("2. Uninstall all packages")
-        print("3. Exit")
+        print("3. Refresh package list")
+        print("0. Exit")
         
-        choice = input("Select an option (1-3): ")
+        choice = input("Select an option (0-3): ")
 
         if choice == '1':
             package_index = int(input(f"Enter the package number to uninstall (1-{len(packages) if packages else 0}): ")) - 1
@@ -62,6 +63,10 @@ def main():
             print(f"{GREEN}Uninstalled all packages.{RESET}")
         
         elif choice == '3':
+            print(f"{GREEN}Refreshing package list...{RESET}")
+            continue
+        
+        elif choice == '0':
             print("Exiting.")
             break
         
