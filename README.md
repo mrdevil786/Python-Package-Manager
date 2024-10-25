@@ -21,3 +21,10 @@ To use this package manager, clone this repository or copy the script to your lo
 ```bash
 git clone <repository-url>
 cd <repository-directory>
+```
+
+## Run
+
+```bash
+python manage_packages.py
+```
