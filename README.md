@@ -19,7 +19,7 @@ A simple command-line tool for managing Python packages. This package manager al
 To use this package manager, clone this repository or copy the script to your local machine.
 
 ```bash
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/mrdevil786/Python-Package-Manager.git)
 cd <repository-directory>
 ```
 
